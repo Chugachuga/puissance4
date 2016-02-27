@@ -6,7 +6,7 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 09:30:08 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/27 14:52:16 by gvilmont         ###   ########.fr       */
+/*   Updated: 2016/02/27 15:04:30 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int		ft_getlenght(int fd)
 			return (1);
 		g_l = ft_atoi(line);
 		if (g_l < 7 || g_l > 2147483646)
-			ft_putstr("ERROR, lenght must be > 7 and < int_MAX\n");
+			ft_putstr("ERROR, lenght must be >= 7 and < int_MAX\n");
 	}
 	return (g_l);
 }
@@ -49,7 +49,7 @@ int		ft_getheight(int fd)
 			return (1);
 		g_h = ft_atoi(line);
 		if (g_h < 6 || g_h > 2147483646)
-			ft_putstr("ERROR, height must be > 6 and < int_Max\n");
+			ft_putstr("ERROR, height must be >= 6 and < int_MAX\n");
 	}
 	return (g_h);
 }
@@ -87,6 +87,7 @@ int		read_file(int fd)
 		if (ft_fulltab(tab, g_l, g_h))
 			ft_putstr("END OF GAME\n");
 	}
+	free(tab);
 	return (0);
 }
 
