@@ -6,7 +6,7 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 09:32:13 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/28 18:59:28 by gvilmont         ###   ########.fr       */
+/*   Updated: 2016/02/28 20:59:29 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,5 +52,6 @@ void	ft_checklineh4(char **tab, int *sj1, int *sj2);
 void	ft_checklinev3(char **tab, int *sj1, int *sj2);
 void	ft_checklinev4(char **tab, int *sj1, int *sj2);
 int		ft_checkthreat(char **tab, int a, int b, int k);
+int		ft_checkcthreat(char **tab, int a, int b);
 
 #endif

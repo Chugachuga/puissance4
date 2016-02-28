@@ -6,11 +6,11 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 13:03:53 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/27 19:48:24 by jgeslin          ###   ########.fr       */
+/*   Updated: 2016/02/28 21:44:36 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "puissance4.h"
+#include "../includes/puissance4.h"
 
 int		ft_winline(char **tab, int a, int b)
 {

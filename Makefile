@@ -6,7 +6,7 @@
 #    By: jgeslin  <jgeslin@student.42.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/01/15 12:36:55 by jgeslin           #+#    #+#              #
-#    Updated: 2016/02/28 14:16:42 by gvilmont         ###   ########.fr        #
+#    Updated: 2016/02/28 21:00:46 by gvilmont         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,6 +29,7 @@ SRC_NAME = main.c\
 		   ft_tools_ia2.c\
 		   ft_tools_ia3.c\
 		   ft_linethreat.c\
+		   ft_columnthreat.c\
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 LIB_NAME = libft.a

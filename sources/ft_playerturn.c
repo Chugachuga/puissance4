@@ -6,12 +6,11 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 11:07:37 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/28 02:08:04 by jgeslin          ###   ########.fr       */
+/*   Updated: 2016/02/28 21:44:25 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "puissance4.h"
-#include <stdio.h>
+#include "../includes/puissance4.h"
 
 int		ft_askcolumn(int fd)
 {

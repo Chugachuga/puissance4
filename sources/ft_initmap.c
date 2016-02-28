@@ -6,11 +6,11 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 10:24:25 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/28 19:54:11 by gvilmont         ###   ########.fr       */
+/*   Updated: 2016/02/28 21:44:06 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "puissance4.h"
+#include "../includes/puissance4.h"
 
 char	**ft_initmap(void)
 {

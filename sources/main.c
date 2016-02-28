@@ -6,13 +6,12 @@
 /*   By: gvilmont <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/27 09:30:08 by gvilmont          #+#    #+#             */
-/*   Updated: 2016/02/28 19:08:01 by gvilmont         ###   ########.fr       */
+/*   Updated: 2016/02/28 21:44:45 by gvilmont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "puissance4.h"
+#include "../includes/puissance4.h"
 #include "../libft/includes/libft.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 
@@ -90,7 +89,8 @@ int		read_file(int fd, int rand)
 			ft_printtab(ft_filltab(tab));
 		else if (rand && !(rand = 0))
 		{
-			if (ft_checkthreat(tab, g_h, g_le, 0))
+			if (ft_checkcthreat(tab, g_h, g_le)
+						&& ft_checkthreat(tab, g_h, g_le, 0))
 				ft_iaturn(tab, 5);
 			ft_printtab(tab);
 		}
